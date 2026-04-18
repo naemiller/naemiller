@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>United Dental Care</title>
-    <!-- Cleaned CSS link -->
+    <!-- Relative link to your CSS file -->
     <link rel="stylesheet" type="text/css" href="dental.css"> 
 </head> 
 <body> 
@@ -17,54 +17,57 @@
         </div> 
         <div class="Call">Call Us: (720)-555-0012</div> 
         
-        <!-- Navigation with Relative Links -->
         <nav>
             <a href="dentist%20site.html"><button class="nav" type="button">Home</button></a> 
             <a href="services.html"><button class="nav" type="button">Services</button></a> 
             <a href="about%20us%20dental.html"><button class="nav" type="button">About Us</button></a> 
-            <a href="insurence.html"><button class="nav" type="button">Insurence</button></a> 
+            <a href="insurence.html"><button class="nav" type="button">Insurance</button></a> 
             <a href="contact%20form.html"><button class="top" type="button">Book My Appointment</button></a> 
         </nav>
     </header> 
 
-    <div class="background"> 
-        <!-- Cleaned Image Path -->
-        <img alt="woman smiling at dentist" src="dentalcover.jpg"> 
-        <div> 
-            <div class="overlay-text">Brighter Smiles Today <br> For Brighter A Tomorrow</div> 
-            <div class="overlay-paragraph"> Affordable dental care for the entire family. <br> Call or book today!</div> 
-            <a href="contact%20form.html"> 
-                <button class="book-today">Book My Appointment</button>
-            </a>
-        </div> 
-        
-        <a href="contact%20form.html"><button class="contact" type="button">Contact Us &gt;</button></a> 
-        
-        <div class="mission"> 
-            <h3> Our Mission</h3> 
-            <p>For over 20 years United Dental Care has been the leading dentist office in the Colorado area. Our sole mission is to bring a life-changing smile to every patient's face, young and old.</p> 
-        </div> 
-
-        <h3> Meet The Staff</h3> 
-        <div class="staff-p">We have an amazing team of professionals working together to ensure a great experience.</div> 
-        <a href="about%20us%20dental.html"><button class="top-b" type="button">About Us</button></a> 
-
-        <div class="new"> 
-            <h3> New Patients </h3> 
-        </div> 
-        <div class="meeting"> 
+    <main>
+        <div class="background"> 
             <!-- Cleaned Image Path -->
-            <img alt="dentist meeting new patient" src="meeting.jpg"> 
-            <p>No need to wait! We offer flexible availability and same day care for new patients.</p> 
-        </div> 
+            <img alt="woman smiling at dentist" src="dentalcover.jpg"> 
+            <div class="hero-content"> 
+                <div class="overlay-text">Brighter Smiles Today <br> For A Brighter Tomorrow</div> 
+                <div class="overlay-paragraph"> Affordable dental care for the entire family. <br> Call or book today!</div> 
+                <a href="contact%20form.html"> 
+                    <button class="book-today">Book My Appointment</button>
+                </a>
+            </div> 
+            
+            <a href="contact%20form.html"><button class="contact" type="button">Contact Us &gt;</button></a> 
+            
+            <section class="mission"> 
+                <h3> Our Mission</h3> 
+                <p>For over 20 years, United Dental Care has been a leading provider in the Colorado area. Our mission is to bring a life-changing smile to every patient, young and old. We pride ourselves on friendly staff, gentle services, and great customer care.</p> 
+            </section> 
 
-        <h3> All PPO Insurance Plans Accepted</h3> 
-        <div class="ppo"> 
-            <!-- Cleaned Image Path -->
-            <img alt="we've got you covered" src="covered.jpg"> 
-            <p>We accept all major insurance plans including medicare and medicaid.</p> 
-            <a href="insurence.html"><button class="top" type="button">Learn More</button></a> 
-        </div> 
-    </div>
+            <section class="staff">
+                <h3> Meet The Staff</h3> 
+                <div class="staff-p">We have an amazing team of professionals working together to ensure a great experience for the entire family. </div> 
+                <a href="about%20us%20dental.html"><button class="top-b" type="button">About Us</button></a> 
+            </section>
+
+            <section class="new-patients">
+                <h3> New Patients </h3> 
+                <div class="meeting"> 
+                    <img alt="dentist meeting new patient" src="meeting.jpg"> 
+                    <p>No need to wait! We offer flexible availability and same-day care for new patients. We look forward to meeting you.</p> 
+                </div> 
+            </section>
+
+            <section class="insurance">
+                <h3> All PPO Insurance Plans Accepted</h3> 
+                <div class="ppo"> 
+                    <img alt="we've got you covered" src="covered.jpg"> 
+                    <p> We believe in coverage for everyone. We accept all major insurance plans, including Medicare and Medicaid. No insurance? No problem! We offer affordable payment plans.</p> 
+                    <a href="insurence.html"><button class="top" type="button">Learn More</button></a> 
+                </div> 
+            </section>
+        </div>
+    </main>
 </body>
 </html>
