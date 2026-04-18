@@ -1,0 +1,122 @@
+<!Doctype html>
+<html lang="en">
+<head> 
+<title>United Dental Care</title>
+<meta charset="utf-8">
+<script src= "scripts/jquery-3.2.1.mm.js"></script>
+<script src="scripts/myscript.js"></script>
+<link rel="stylesheet" type="text/css" href="../styling/dental.css">
+</head>
+<body>
+	<h1> United Dental Care</h1>
+	<header>
+		<div class="location">
+	2511 S. Freemont Ave Denver, CO 80112
+</div>
+		<div class="Call">Call Us: (720)-555-0012</div>
+	
+	<a href="dentist site.html"><button class="nav" type="button">Home</button></a>
+	<a href="services.html"><button class="nav" type="button">Services</button></a>
+	<a href="about us dental.html"><button class="nav" type="button">About Us</button></a>
+	<<a href="insurence.html"><button class="nav" type="button">Insurence</button></a>
+	<a href="contact form.html"><button class="top" type="button">Book My Appointment</button></a>
+</header>
+
+	<div class="Scheduling"> Schedule An Appoinment Today! </div>
+<form>
+	<h4>Who is this appointment for?</h4>
+<div class="error_message_hidden" id="name error">Please provide your name</div>
+	<form action="" method="get" class="booking form">
+  <div class="contact-form">
+
+    <label for="name">First Name:</label>
+    <input type="text" name="name" id="name" required />
+
+    <label for="name">Last Name:</label>
+    <input type="text" name="name" id="name" required />
+  </div>
+
+  <input type="checkbox" value="otherscheduling"/>
+  <label for="otherscheduling"><small>Scheduling for someone else</small>
+
+  <h4> Are You New Here?</h4>
+  <div>
+  <div class= "new-old">
+  <input type="button" value="New Patient" />
+  <input type="button" value="Returning Patient" />
+</div>
+  <div class="contact-form">
+    <label for="email">Email : </label>
+    <input type="email" name="email" id="email" required />
+</div>
+<label for="phone">
+  Enter your phone number: <br>
+  <small>ex:(000)-000-0000</small>
+</label>
+
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+
+<div>
+<div class="bday">
+	<label for="birthday"> Date Of Birth</label>
+	<input type="date" name="bday">
+  </div>
+
+ <h4> What Would You Like To Come In For?</h4>
+ <fieldset>
+  <legend> Services:</legend>
+
+  <div>
+    <input type="checkbox" id="Cleaning" name="cleaning" checked />
+    <label for="cleaning">Dental Cleaning/Exam</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="Root" name="root" />
+    <label for="root">Root Canal</label>
+  </div>
+
+  <div>
+  	<input type="checkbox" id="fillings" name="Fillings"/>
+  	<label for="fillings">Fillings/Sealants</label>
+  </div>
+
+  <div>
+  	<input type="checkbox" id="whitening" name="whitening"/>
+  	<label for="whitening">Teeth Whitening</label>
+  </div>
+<div>
+  	<input type="checkbox" id="braces" name="braces"/>
+  	<label for="braces">Braces</label>
+</div>
+
+<div>
+  	<input type="checkbox" id="emergency" name="emergency"/>
+  	<label for="emergency">Dental Emergency</label>
+  </div>
+</fieldset>
+
+<h4> When would you like to come in?</h4>
+<input type="date" name="Date" min="2024-04-23" max="2024-12-31">
+<input type="Time" name="Time" min="08:00" max="19:00" required/ >
+<small>Office hours 8:00am -7:00pm</small>
+
+<h4> Message <small> (Optional)</small></h4>
+
+<div class="txtarea">
+<textarea rows="10" cols="80"></textarea>
+</div>
+<input type=button value="SUBMIT">
+</form>
+	
+
+
+
+
+
+
+
+
+
+
+</body>
